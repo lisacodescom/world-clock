@@ -20,3 +20,14 @@ parisTimeElement.innerHTML = parisTime;
 }
 setInterval(city,1000)
 
+function updateCity(event) {
+  let cityTimeZone = event.target.value;
+  let citiesElement = document.querySelector("#cities");
+  citiesElement.innerHTML = "hello"
+
+}
+updateCity();
+
+let citiesSelectElement = document.querySelector("#city");
+citiesSelectElement.addEventListener("change", updateCity);
+

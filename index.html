@@ -12,35 +12,28 @@
 <body>
 <div class="container">
     <h1>World Clock</h1>
-    <select>
+    <select id="city">
         <option value="">Select a city</option>
-        <option value="">Dallas</option>
-        <option value="">Paris</option>
-        <option value="">Shanghai</option>
+        <option value="America/New_York">New York</option>
+        <option value="Australia/Sydney">Sydney</option>
+        <option value="Asia/Shanghai">Shanghai</option>
     </select>
-    
-    <div class="city" id="dallas">
+    <div id="cities">
+    <div class="cities" id="dallas">
         <div>
         <h2>Dallas</h2>
         <div class="date"></div>
         </div>
         <div class="time">7:17:30 <small>PM</small></div>
     </div>
-    <div class="city" id="paris">
+    <div class="cities" id="paris">
         <div>
         <h2>Paris</h2>
         <div class="date">August 1st 2023</div>
         </div>
         <div class="time">7:17:30 <small>PM</small></div>
     </div>
-    <div class="city" id="Shanghai">
-        <div>
-        <h2>Shanghai</h2>
-        <div class="date">August 1st 2023</div>
-        </div>
-        <div class="time">7:17:30 <small>PM</small></div>
-    </div>
-        
+    </div>  
 </div>
 <footer>This project is coded with ❤️ by Lisa and is open sourced on<a href="#" target="_blank"> GitHub</a></footer>
     <script src="JavaScript.js"></script>
